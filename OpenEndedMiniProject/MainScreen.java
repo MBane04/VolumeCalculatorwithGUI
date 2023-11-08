@@ -74,9 +74,9 @@ public class MainScreen {
 		btnNewButton.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcCircle calcShape = new CalcCircle();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton.setBackground(Color.WHITE);
@@ -84,9 +84,9 @@ public class MainScreen {
 		JButton btnNewButton_1 = new JButton("Triangle");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcTriangle calcShape = new CalcTriangle();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -95,9 +95,9 @@ public class MainScreen {
 		JButton btnNewButton_1_1 = new JButton("Square");
 		btnNewButton_1_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcSquare calcShape = new CalcSquare();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1_1.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -106,9 +106,9 @@ public class MainScreen {
 		JButton btnNewButton_1_2 = new JButton("Rectangle");
 		btnNewButton_1_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcRectangle calcShape = new CalcRectangle();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1_2.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -117,9 +117,9 @@ public class MainScreen {
 		JButton btnNewButton_1_3 = new JButton("Parallelogram");
 		btnNewButton_1_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcParallelogram calcShape = new CalcParallelogram();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1_3.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -128,9 +128,9 @@ public class MainScreen {
 		JButton btnNewButton_1_4 = new JButton("Trapezium");
 		btnNewButton_1_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcTrapezium calcShape = new CalcTrapezium();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1_4.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -192,9 +192,9 @@ public class MainScreen {
 		JButton btnNewButton_1_4_2 = new JButton("Hemisphere");
 		btnNewButton_1_4_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcHemisphere calcShape = new CalcHemisphere();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1_4_2.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -203,9 +203,9 @@ public class MainScreen {
 		JButton btnNewButton_1_3_2 = new JButton("Sphere");
 		btnNewButton_1_3_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcSphere calcShape = new CalcSphere();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1_3_2.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -214,9 +214,9 @@ public class MainScreen {
 		JButton btnNewButton_1_2_2 = new JButton("Cone");
 		btnNewButton_1_2_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcCone calcShape = new CalcCone();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1_2_2.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -225,9 +225,9 @@ public class MainScreen {
 		JButton btnNewButton_1_1_2 = new JButton("Cylinder");
 		btnNewButton_1_1_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcCylinder calcShape = new CalcCylinder();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1_1_2.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -236,9 +236,9 @@ public class MainScreen {
 		JButton btnNewButton_1_6 = new JButton("Rectangular Prism");
 		btnNewButton_1_6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcRectPrism calcShape = new CalcRectPrism();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_1_6.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
@@ -247,9 +247,9 @@ public class MainScreen {
 		JButton btnNewButton_3 = new JButton("Cube");
 		btnNewButton_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				PopUpDemo calcdemo = new PopUpDemo();
-				calcdemo.setDefaultCloseOperation(calcdemo.HIDE_ON_CLOSE);
-				calcdemo.setVisible(true);
+				CalcCube calcShape = new CalcCube();
+				calcShape.setDefaultCloseOperation(calcShape.HIDE_ON_CLOSE);
+				calcShape.setVisible(true);
 			}
 		});
 		btnNewButton_3.setFont(new Font("Roboto", Font.BOLD | Font.ITALIC, 20));
